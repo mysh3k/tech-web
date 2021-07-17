@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Projectz</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="images/logo.png" width="50%" alt=""></a>
+        <div class="manuToggle" onclick="toogleMenu()">
+
+        </div>
+        <ul class="navigation">
+            <li><a class="menuChange" onclick="toogleMenu()" href="#home">HOME</a></li>
+            <li><a class="menuChange" onclick="toogleMenu()" href="#about">ABOUT</a></li>
+            <li><a class="menuChange" onclick="toogleMenu()" href="#products">WORK</a></li>
+            <li><a class="menuChange" onclick="toogleMenu()" href="#video">PROGRESS</a></li>
+            <li><a class="menuChange" onclick="toogleMenu()" href="#service">SERVICES</a></li>
+            <li><a class="menuChange" onclick="toogleMenu()" href="#testimonial">TESTIMONIALS</a></li>
+            <li><a class="menuChange" onclick="toogleMenu()" href="#form">CONTACT</a></li>
+        </ul>
+</header>
+
+    <section id="home">
+        <div class="banner">
+            <div class="content container">
+                    <h2>We Design and Develop</h2>
+                    <p>We are a new design studio based in USA. We have over 
+                        20 years of combined experience, and know a thing or two 
+                        about designing websites and mobile apps.</p>
+                    <a href="#form" class="button">CONTACT US</a>
+            </div>
+        </div>
+    </section>
+
+<section id="about">
+    <div class="container">
+        <h2 class="title">About Us</h2>
+        <p class="dis">Divide have don't man wherein air fourth. Own itself make have night won't make. 
+            A you under Seed appear which good give. Own give air without fowl moveth dry first 
+            heaven fruit, dominion she'd won't very all.
+            </p> <br><br>
+            <center>
+                <img src="images/signature.png" alt="">
+            </center>
+    </div>
+</section>
+
+<section id="skill">
+      <div class="row">
+          <div class="col-sm skills">
+<div class="wrapper">
+        <h2 class="title">Professional Skills</h2>
+        <br><br>
+        <div class="skill">
+            <p>UI/UX DESIGN  75%</p><br>
+            <div id="skill1" class="skill-bar skill1">
+            </div>
+        </div>
+        <div class="skill">
+            <p>WEB DEVELOPMENT    90%</p><br>
+            <div id="skill2" class="skill-bar skill2">
+            </div>
+        </div>
+        <div class="skill">
+            <p>MARKETING    65%</p><br>
+            <div id="skill3" class="skill-bar skill3">
+            </div>
+        </div>
+    </div>
+          </div>
+          <div class="col-sm">
+              <img src="images/section.png" width="100%" alt="">
+          </div>
+    </div>
+</section>
+
+
+<section id="section3">
+    <div class="container">
+      <div class="row">
+          <div class="col-sm">
+              <center>
+                    <i class="fal fa-briefcase icon"></i>
+                <div class="col-sm-11 d"> <br>
+                  <p id="counter">0</p>
+                  <p>PROJECTS COMPLETED</p>
+                </div>
+            </center>
+          </div>
+          <div class="col-sm">
+            <center>
+                <i class="fal fa-clock icon"></i>
+              <div class="col-sm-11 d"> <br>
+                <p id="counter2">0</p>
+                <p>WORKING HOURS</p>
+              </div>
+          </center>
+        </div>
+        <div class="col-sm">
+            <center>
+                <i class="fal fa-star icon"></i>
+              <div class="col-sm-11 d"> <br>
+                <p id="counter3">0</p>
+                <p>POSITIVE FEEDBACKS</p>
+              </div>
+          </center>
+        </div>
+        <div class="col-sm">
+            <center>
+                <i class="fal fa-heart icon"></i>
+              <div class="col-sm-11 d"> <br>
+                <p id="counter4">0</p>
+                <p>HAPPY CLIENTS</p>
+              </div>
+          </center>
+        </div>
+      </div>
+    </div>
+</section>
+<section id="products">
+    <div class="row">
+        <div class="col-sm">
+            <img id="myImg" class="test1" src="images/banner.png" width="100%" alt="">
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <img class="test1" src="images/banner.png" width="100%" alt="">
+        </div>
+        <div class="col-sm">
+            <img class="test1" src="images/banner.png" width="100%" alt="">
+        </div>
+        <div class="col-sm">
+            <img class="test1" src="images/banner.png" width="100%" alt="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm">
+            <img class="test1" src="images/banner.png" width="100%" alt="">
+        </div>
+        <div class="col-sm">
+            <img class="test1" src="images/banner.png" width="100%" alt="">
+        </div>
+        <div class="col-sm">
+            <img class="test1" src="images/banner.png" width="100%" alt="">
+        </div>
+        <div class="col-sm">
+            <img class="test1" src="images/banner.png" width="100%" alt="">
+        </div>
+    </div>
+	<div id="load" class="row" hidden>
+        <div class="col-sm">
+            <img class="test1" src="images/banner.png" width="100%" alt="">
+        </div>
+        <div class="col-sm">
+            <img class="test1" src="images/banner.png" width="100%" alt="">
+        </div>
+        <div class="col-sm">
+            <img class="test1" src="images/banner.png" width="100%" alt="">
+        </div>
+        <div class="col-sm">
+            <img class="test1" src="images/banner.png" width="100%" alt="">
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="load">
+            <center><a id="loader" onClick="myFunction()" href="#products">SHOW MORE WORK</a></center>
+            
+        </div>
+    </div>
+</section>
+
+<section id="video">
+   <div class="container">
+       <h2 class="title">Our Work Process</h2>
+       <p class="dis">Was years it seasons was there form he in in them together over that, 
+        third sixth gathered female creeping bearing behold years.</p><br><br>
+        <center>
+       <div class="col-10 video">
+           <video  height="480" controls>
+  <source id="vid" src="images/Demo Background Sample Video.mp4" type="video/mp4">
+  </video>
+           <img class="play" id="playVid" src="images/play.png" alt="">
+       </div>
+       </center>
+   </div>
+</section>
+<section id="service">
+    <div class="container">
+        <div class="row k">
+            <div class="col-sm">
+              <center>
+                <i class="fab fa-sketch"></i><br><br>
+                <h4>UI / UX DESIGN</h4>
+                <p>Be set fourth land god darkness 
+                    make it wherein own</p>
+              </center>
+            </div>
+            <div class="col-sm">
+                <center>
+                    <i class="fal fa-bow-arrow"></i><br><br>
+                  <h4>WEB DEVELOPMENT</h4>
+                  <p>A she'd them bring void moving 
+                    third she'd kind fill</p>
+                </center>
+              </div>
+              <div class="col-sm">
+                <center>
+                    <i class="fal fa-mobile-android"></i><br><br>
+                  <h4>APP / MOBILE</h4>
+                  <p>Dominion man second spirit he,
+                    earth they're creeping</p>
+                </center>
+              </div>
+              <div class="col-sm">
+                <center>
+                    <i class="fas fa-gamepad"></i><br><br>
+                  <h4>GAME DESIGN</h4>
+                  <p>Morning his saying moveth it 
+                    multiply appear life be</p>
+                </center>
+              </div>
+        </div> <br>
+        <div class="row k">
+            <div class="col-sm">
+              <center>
+                <i class="fal fa-plane"></i><br><br>
+                <h4>SEO / MARKETING</h4>
+                <p>Give won't after land fill creeping 
+                    meat you, may</p>
+              </center>
+            </div>
+            <div class="col-sm">
+                <center>
+                    <i class="fal fa-star"></i><br><br>
+                  <h4>PHOTOGRAPHY</h4>
+                  <p>Creepeth one seas cattle grass 
+                    give moving saw give</p>
+                </center>
+              </div>
+              <div class="col-sm">
+                <center>
+                    <i class="fal fa-magic"></i><br><br>
+                  <h4>GRAPHIC DESIGN</h4>
+                  <p>Open, great whales air rule for, 
+                    fourth life whales</p>
+                </center>
+              </div>
+              <div class="col-sm">
+                <center>
+                    <i class="fas fa-fill-drip"></i><br><br>
+                  <h4>ILLUSTRATIONS</h4>
+                  <p>Whales likeness hath, man kind 
+                    for them air two won't</p>
+                </center>
+              </div>
+        </div>
+    </div>
+  </section>
+  <section>
+      <div class="col-12">
+          <img src="images/clients.png" width="100%" alt="">
+      </div>
+  </section>
+
+
+  <section id="testimonial">
+      <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <p class="t">“ Outstanding job and exceeded all expectations. It was a pleasure 
+                    to work with them on a sizable first project and am looking 
+                    forward to start the next one asap.”</p><br>
+                    <p class="text-center">MICHAEL HOPKINS</p>
+              </div>
+              <div class="carousel-item">
+                <p class="t">“ Outstanding job and exceeded all expectations. It was a pleasure 
+                    to work with them on a sizable first project and am looking 
+                    forward to start the next one asap.”</p><br>
+                    <p class="text-center">MICHAEL HOPKINS</p>
+              </div>
+              <div class="carousel-item">
+                <p class="t">“ Outstanding job and exceeded all expectations. It was a pleasure 
+                    to work with them on a sizable first project and am looking 
+                    forward to start the next one asap.”</p><br>
+                    <p class="text-center">MICHAEL HOPKINS</p>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+  </section>
+
+<section id="form">
+    <div class="container">
+        <h2 class="title">Need a Project?</h2>
+        <p class="dis">Let us know what you're looking for in an agency. We'll take a look and see 
+            if this could be the start of something beautiful.</p>
+        <form action="" method="post">
+            <div class="row n">
+                <div class="col-sm">
+                  <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="col-sm ">
+                  <input type="text" class="form-control ms-auto" placeholder="Your Email">
+                </div>
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Title">
+              </div><br>
+              <div class="mb-3">
+                <textarea class="form-control" placeholder="Your Comment" id="exampleFormControlTextarea1" rows="8"></textarea>
+              </div>
+              <center><a href="#!" class="button">SEND MESSAGE</a></center>
+              
+        </form>
+    </div>
+</section>
+
+
+
+  <footer id="footer">
+      <div class="container">
+       <div class="row">
+           <div class="col-sm-4">
+             <h5>Piroll Design, Inc.</h5>
+             <p>© 2017 Piroll. All rights reserved. <br>
+                Designed by robirurk.</p>
+           </div>
+           <div class="col-3">
+            <p>hello@pirolltheme.com <br>
+                +44 987 065 908</p>
+           </div>
+           <div class="col-5">
+              <div class="row r">
+                  <div class="col-sm-3">
+                    <ul>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Carreer</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-4">
+                    <ul>
+                        <li><a href="">News</a></li>
+                        <li><a href="">Evennt</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Legals</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-5 ms-auto">
+                    <ul>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Dribbble</a></li>
+                    </ul>
+                </div>
+              </div>
+           </div>
+       </div>
+      </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    window.addEventListener('scroll' ,function(){
+        const header = document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY > 0);
+    });
+    function toogleMenu(){
+        const manuToggle = document.querySelector('.manuToggle');
+        const navigation = document.querySelector('.navigation');
+        manuToggle.classList.toggle('active');
+        navigation.classList.toggle('active');
+    }
+</script>
+<script>
+	window.onload = function() {
+	document.getElementById("skill1").classList.add('skill1-1')
+	document.getElementById("skill2").classList.add('skill2-1')
+	document.getElementById("skill3").classList.add('skill3-1')
+}
+
+function animateValue(id, start, end, duration) {
+
+    var obj = document.getElementById(id);
+    var range = end - start;
+    var minTimer = 50;
+    var stepTime = Math.abs(Math.floor(duration / range));
+
+    stepTime = Math.max(stepTime, minTimer);
+
+    var startTime = new Date().getTime();
+    var endTime = startTime + duration;
+    var timer;
+  
+    function run() {
+        var now = new Date().getTime();
+        var remaining = Math.max((endTime - now) / duration, 0);
+        var value = Math.round(end - (remaining * range));
+        obj.innerHTML = value;
+        if (value == end) {
+            clearInterval(timer);
+        }
+    }
+    
+    timer = setInterval(run, stepTime);
+    run();
+}
+
+animateValue("counter", 0, 548, 2500);
+animateValue("counter2", 0, 1465, 4000);
+animateValue("counter3", 0, 612, 3000);
+animateValue("counter4", 0, 712, 3500);
+
+	function myFunction(){
+	x = document.getElementById("load")
+        if (x.hidden == true){
+            x.hidden = false
+            document.getElementById("loader").innerText = "SHOW LESS WORK"
+        }else{
+            x.hidden = true
+            document.getElementById("loader").innerText = "SHOW MORE WORK"
+        }
+
+	}
+
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+
+
+};
+
+</script>
+
+</body>
+</html>
